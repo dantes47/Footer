@@ -1,0 +1,43 @@
+* {
+box-sizing : border-box;
+}
+html {
+background : url("https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/08/1408543844Fotolia_59962820_Subscription_Monthly_M-Small.jpg") no-repeat;
+background-size : 100%;
+}
+footer {
+background : url("https://picfiles.alphacoders.com/190/190510.jpg") center repeat;
+display : table;
+text-align : center;
+height : 8rem;
+width : 100vw;
+padding : 1rem;
+font-family : 'Inconsolata', monospace;
+font-size : 0.875rem;
+position : absolute;
+bottom : 0;
+}
+strong {
+font-weight : 700;
+}
+a, small {
+color : lemonchiffon;
+text-decoration : none;
+}
+footer small {
+letter-spacing : 0.25rem;
+margin-bottom : 1.5rem;
+display : block;
+}
+.wrapper {
+display : table-cell;
+vertical-align : middle;
+}
+.nav_footer {
+display : inline-block;
+margin : 0 0.5rem;
+}
+.nav_footer a:hover {
+color : seagreen;
+transition : color 0.13s ease-in-out;
+}
